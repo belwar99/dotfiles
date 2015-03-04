@@ -1,0 +1,14 @@
+#
+# .emacs.d/.gitignore
+#
+
+*.*
+*~
+*\#$
+
+!/init.el
+!/.gitignore
+
+/url
+/elpa
+/auto-save-list
