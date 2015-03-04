@@ -6,17 +6,11 @@
 ### All Ignore
 *~
 *\#$
-
-#Git
-!/.gitignore
+*.*
 
 ### Except
-# Emacs
-/.emacs.d/url
-!/.emacs.d/init.el
-!/.emacs.d/elisp
-!/.emacs.d/melpa
-
+#Git
+!/.gitignore
 
 # zsh
 !/.zshrc
