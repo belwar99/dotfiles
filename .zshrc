@@ -80,9 +80,8 @@ function cd() {builtin cd $@&& ls; }	# CDした時にそのディレクトリを
 
 
 ### エイリアス ###
-alias ls="ls -G --color=auto"
+alias ls="ls -FG --color=auto"
 alias la="ls -A"
-alias lf="ls -F"
 alias ll="ls -l"
 alias l.="ls -dA .*"
 
