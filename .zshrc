@@ -108,3 +108,9 @@ add-zsh-hook precmd _update_vcs_info_msg
 ### オプション ###
 #日本語のファイル名を表示可能にする
 setopt print_eight_bit
+
+# beep 無効
+setopt no_beep
+
+# 高機能なワイルドカード展開を使用
+setopt extended_glob
